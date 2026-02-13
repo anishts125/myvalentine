@@ -13,7 +13,6 @@ let opacity = 0;
    Start Button Click Logic
 ---------------------------- */
 startButton.addEventListener("click", () => {
-
   // Play music
   music.play();
 
@@ -27,11 +26,15 @@ startButton.addEventListener("click", () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 
+  // **Important:** create stars AFTER canvas size
+  createStars();
+
   animationStarted = true;
 
   // Start animation
   window.requestAnimationFrame(draw);
 });
+
 
 /* ---------------------------
    Star Background Setup
