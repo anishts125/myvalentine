@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://raw.githubusercontent.com/sojijr/valentine-website/main/public/images/favicon.png">
-    <link rel="icon" href="public/images/favicon.png" type="image/x-icon" />  
-    <title>Happy Valentine's Day</title>
-    <link rel="stylesheet" href="public/style.css">
-  </head>
-  <body>
-    <canvas id="starfield"></canvas>
-    <button id="valentinesButton">Click Me! ❤</button>
-    <script src="script.js"></script>
-    <!-- Music Player -->
-        <div id="musicControls" class="music-controls">
-            <button id="musicToggle" class="music-btn">🎵 Play Music</button>
-            <audio id="bgMusic" loop>
-                <source id="musicSource" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-            <!-- <audio id="bgMusic" autoplay loop>
-    <source src="songg.mp3" type="audio/mpeg">
-</audio> -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Seetha ❤️</title>
 
-        </div>
-  </body>
+  <!-- Correct CSS file name -->
+  <link rel="stylesheet" href="public/styles.css">
+</head>
+
+<body>
+
+  <!-- Start Screen Button -->
+  <div id="startScreen">
+    <button id="startButton">Let’s Start ❤️</button>
+  </div>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="https://res.cloudinary.com/dojnoaueb/video/upload/v1770965903/Aayiram_kannumay_Remastering_Nokketha_Doorathu_Kannum_Nattu_K_S_Chithra_Bichu_Thirumala_128k_vr3scg.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Canvas for Animation -->
+  <canvas id="starfield"></canvas>
+
+  <script src="script.js"></script>
+
+</body>
 </html>
