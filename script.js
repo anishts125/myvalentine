@@ -117,7 +117,8 @@ function drawText() {
 
 function draw() {
 
-  context.clearRect(0, 0, canvas.width, canvas.height);
+context.fillStyle = "#111";
+context.fillRect(0, 0, canvas.width, canvas.height);
 
   drawStars();
   updateStars();
