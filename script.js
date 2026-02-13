@@ -21,6 +21,16 @@ for (var i = 0; i < stars; i++) {
     var opacity = Math.random();
     starArray.push({ x, y, radius, hue, sat, opacity });
 }
+// Background Music (Optional)
+    // Add your own music URL after getting proper licenses
+    music: {
+        enabled: true,                     // Music feature is enabled
+        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
+        musicUrl: "https://res.cloudinary.com/dojnoaueb/video/upload/v1770965903/Aayiram_kannumay_Remastering_Nokketha_Doorathu_Kannum_Nattu_K_S_Chithra_Bichu_Thirumala_128k_vr3scg.mp3", // Music streaming URL
+        startText: "🎵 Play Music",        // Button text to start music
+        stopText: "🔇 Stop Music",         // Button text to stop music
+        volume: 0.5                        // Volume level (0.0 to 1.0)
+    }
 
 var frameNumber = 0;
 var opacity = 0;
