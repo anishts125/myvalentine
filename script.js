@@ -75,11 +75,11 @@ function drawText() {
 
     if (frameNumber < 250) {
         context.fillStyle = `rgba(255, 105, 180, ${opacity})`;
-        context.fillText("everyday day I cannot believe how lucky I am", canvas.width/2, canvas.height/2);
+        context.fillText("Everyday day I cannot believe how lucky I am", canvas.width/2, canvas.height/2);
         opacity += 0.01;
     } else if (frameNumber < 500) {
         context.fillStyle = `rgba(255, 105, 180, ${opacity})`;
-        context.fillText("everyday day I cannot believe how lucky I am", canvas.width/2, canvas.height/2);
+        context.fillText("Everyday day I cannot believe how lucky I am", canvas.width/2, canvas.height/2);
         opacity -= 0.01;
     } else if (frameNumber < 750) {
         if (frameNumber === 500) opacity = 0;
