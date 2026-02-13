@@ -49,11 +49,12 @@ function createStars() {
     starArray.push({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
-      radius: Math.random() * 1.5,
-      opacity: Math.random()
+      radius: Math.random() * 1.5 + 0.5,  // ensure visible radius
+      opacity: Math.random() * 0.8 + 0.2   // ensure visible opacity
     });
   }
 }
+
 
 function drawStars() {
   for (let i = 0; i < stars; i++) {
