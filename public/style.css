@@ -27,6 +27,12 @@ canvas {
     transform: translateX(-50%);
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
+.music-controls {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
 
   #valentinesButton:hover {
     background-color: #1f1faa;
