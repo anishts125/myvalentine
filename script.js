@@ -50,7 +50,7 @@ const button = document.getElementById("valentinesButton");
 button.addEventListener("click", () => {
     if (button.textContent === "Click Me! ❤") {
         button.textContent = "sending...";
-        fetch('https://formspree.io/f/mreaplye', {
+        fetch('https://formspree.io/f/mreaplye', { 
             method: 'POST',
             body: JSON.stringify({ message: "Shruti clicked it! ❤️" }),
             headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }
